@@ -8,7 +8,7 @@ function redirectGithub() {
 
 const lnkdIn = document.getElementById("lnkdVisit");
 
-github.addEventListener("click", redirectLnkd);
+lnkdIn.addEventListener("click", redirectLnkd);
 
 function redirectLnkd() {
     window.open("https://www.linkedin.com/in/daksh-sharma-8a68b3402/")
